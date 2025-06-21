@@ -21,12 +21,11 @@ def extract_subtitle_text_with_translation(srt_path, output_path):
                     translated = '[Ошибка перевода]'
                 subtitle_text.append(original)
                 subtitle_text.append('— ' + translated)
-                subtitle_text.append('')  # пустая строка между репликами
+                subtitle_text.append('')  
                 buffer = []
             continue
         buffer.append(line)
 
-    # не забываем про остаток
     if buffer:
         original = ' '.join(buffer)
         try:
