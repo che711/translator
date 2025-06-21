@@ -29,7 +29,7 @@ ah — ах
 ahead — предстоящий
 ain — айн
 air — воздух
-alakazam — Алаказам
+alakazam — Алаказам — это заклинание или магическое слово в духе абракадабры.
 alive — живой
 all — все
 allowing — разрешение
@@ -44,10 +44,10 @@ am — являюсь
 amateurish — любительский
 ambassador — посол
 amount — количество
-an — анонца
+an — один, анонца
 anchor — якорь
 and — и
-anger — злость
+anger — злость, гнев
 angry — злой
 animal — животное
 animals — животные
@@ -58,7 +58,7 @@ antennae — антенны
 anticipate — предвидеть
 antics — выходы
 any — любой
-anyhoo — anyhoo
+anyhoo — в любом случае, в общем
 anymore — больше
 anyone — любой
 anything — что-либо
@@ -88,7 +88,7 @@ ask — просить
 assault — атаковать
 at — в
 attack — атака
-attacking — атака
+attacking — атакующий
 attention — внимание
 authorized — уполномочен
 avoiding — избегая
@@ -104,7 +104,7 @@ baggage — Багаж
 balloons — воздушные шары
 balls — шарики
 bam — бам
-bamboozle — бамбуз
+bamboozle — обман, обман зрения
 bandit — Бандит
 bandits — бандиты
 bank — банк
