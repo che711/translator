@@ -66,6 +66,6 @@ def extract_unique_words(input_path, output_path_words, output_path_translated):
         for en, ru in translations.items():
             f.write(f"{en} — {ru}\n")
 
-extract_subtitle_text_with_translation("./subtitles/subtitle_7_und.srt", "./dialogue.txt")
-#extract_unique_words("./dialogue.txt", "./unique_words.txt", "./translated_words.txt")
+extract_subtitle_text_with_translation("./subtitles/subtitle_6_und.srt", "./dialogue.txt")
+extract_unique_words("./dialogue.txt", "./unique_words.txt", "./translated_words.txt")
 
