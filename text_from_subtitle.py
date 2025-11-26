@@ -1,4 +1,5 @@
 import re
+import logging
 from deep_translator import GoogleTranslator
 
 def extract_subtitle_text_with_translation(srt_path, output_path):
@@ -6,6 +7,7 @@ def extract_subtitle_text_with_translation(srt_path, output_path):
 
     with open(srt_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
+        logging.info(f'read lines')
 
     subtitle_text = []
     buffer = []
@@ -42,6 +44,7 @@ def extract_subtitle_text_with_translation(srt_path, output_path):
 def extract_unique_words(input_path, output_path_words, output_path_translated):
     with open(input_path, 'r', encoding='utf-8') as f:
         text = f.read()
+        logging.info(f'extract unique words')
 
     words = re.findall(r'\b\w+\b', text.lower())
     unique_words = sorted(set(words))
@@ -49,6 +52,7 @@ def extract_unique_words(input_path, output_path_words, output_path_translated):
     # Сохраняем список слов
     with open(output_path_words, 'w', encoding='utf-8') as f:
         f.write('\n'.join(unique_words))
+        logging.info(f'saving words')
 
     # Переводим слова
     translator = GoogleTranslator(source='en', target='ru')
@@ -66,6 +70,6 @@ def extract_unique_words(input_path, output_path_words, output_path_translated):
         for en, ru in translations.items():
             f.write(f"{en} — {ru}\n")
 
-extract_subtitle_text_with_translation("./subtitles/subtitle_6_und.srt", "./dialogue.txt")
+extract_subtitle_text_with_translation("./subtitles/subtitle_3_und.srt", "./dialogue.txt")
 extract_unique_words("./dialogue.txt", "./unique_words.txt", "./translated_words.txt")
 

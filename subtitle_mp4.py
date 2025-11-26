@@ -37,5 +37,5 @@ def extract_subtitles_from_mp4(mp4_file, output_dir="."):
         subprocess.run(cmd_extract)
 
 # Пример использования
-extract_subtitles_from_mp4("../../Desktop/Плохие парни.2022.WEB-DL.2160p.DV.mp4", output_dir="subtitles")
+extract_subtitles_from_mp4("../../Desktop/Fallout.S01.720p.WEB-DL.H.264-RGzsRutracker/Fallout.S01E02.The.Target.720p.WEB-DL.H.264-RGzsRutracker.mkv", output_dir="subtitles")
 
