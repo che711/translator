@@ -1,7 +1,8 @@
-# translator
 # 🎬 translator
 
-> Python tool for extracting subtitles from video files and building a translated word list — great for learning a language through movies and TV shows.
+> Learn English through movies and TV shows — extract subtitles from any video, get a bilingual dialogue, and build your personal vocabulary list with translations.
+
+Watch a series in English → pull out every word you didn't know → get translations → repeat. That's the idea.
 
 ---
 
